@@ -1,0 +1,40 @@
+<mat-card>
+  <mat-card-title>{{ "Log in" | translate }}</mat-card-title>
+  <mat-card-content>
+    <form (ngSubmit)="submit()" [formGroup]="loginForm">
+      <p>
+        <mat-form-field appearance="outline" class="example-full-width">
+          <mat-label>{{ "Username" | translate }}</mat-label>
+          <input type="text" matInput formControlName="username">
+          <!-- Here we can display error messages/hints for the user, if one of the Validators adds an error to the email 
+             with the .touched check we only display the hints if the input was touched by the users -->
+          <mat-error *ngIf="usernameControl?.touched && usernameControl?.hasError('required')">
+            {{ "Username is required" | translate }}
+          </mat-error>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline" class="example-full-width">
+          <mat-label>{{ "Password" | translate }}</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" formControlName="password">
+          <button class="password-hide" type="button" mat-icon-button matSuffix (click)="togglePasswordVisibility()">
+            <mat-icon>{{ hide ? 'visibility_off' : 'visibility' }}</mat-icon>
+          </button>
+          <mat-error *ngIf="passwordControl?.touched && passwordControl?.hasError('required')">
+            {{ "Password is required" | translate }}
+          </mat-error>
+            <mat-error *ngIf="passwordControl?.errors?.['passwordStrength']">
+              {{"Password must be at least 8 characters and include a symbol" | translate }}
+            </mat-error>
+        </mat-form-field>
+      </p>
+      <!-- Button is disabled(not clickable), if our LoginForm contains Validation Errors -->
+      <button type="submit" color="primary" mat-raised-button [disabled]="!loginForm.valid">{{ "Log in" | translate
+        }}</button>
+      <div class="form-footer">
+        <span>{{ "Don't have an account?" | translate }}</span>&nbsp;
+        <a [routerLink]="['../register']">{{ "click to SignUp!" | translate }}</a>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,31 @@
+<mat-drawer-container hasBackdrop="false">
+  <mat-drawer
+    *ngIf="currentUser$ | async as currentUser"
+    class="rounded-e-md"
+    #drawer
+    mode="side"
+    position="start"
+    [opened]="!!currentUser"
+  >
+    <app-side-nav> </app-side-nav>
+  </mat-drawer>
+  <mat-drawer-content class="p-3">
+    <div class="p-4 flex justify-end">
+      <select
+        class="mat-mdc-raised-button mat-mdc-unelevated-button mat-mdc-raised-button-base mdc-button text-center"
+        #selectedLang
+        (change)="switchLang(selectedLang.value)"
+      >
+        <option
+          *ngFor="let language of translate.getLangs()"
+          [value]="language"
+          [selected]="language === translate.currentLang"
+          class="mat-mdc-option"
+        >
+          {{ language | uppercase }}
+        </option>
+      </select>
+    </div>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

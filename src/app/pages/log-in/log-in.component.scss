@@ -1,0 +1,50 @@
+
+:host {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+    width: 100%;
+  }
+  
+  mat-card {
+    background-color: rgb(251, 251, 251);
+  }
+  
+  a{
+    color: blue;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    min-width: 300px;
+  }
+  
+  form {
+    width: 80%;
+  }
+  mat-card-title{
+    margin: 20px;
+  }
+  
+  .form-footer{
+  text-align: center;
+  }
+  
+  mat-card-title,
+  mat-card-content {
+    display: flex;
+    min-width: 500px;
+    justify-content: center;
+  }
+  .password-hide{
+    margin: 5%;
+  }
+  
+  button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  

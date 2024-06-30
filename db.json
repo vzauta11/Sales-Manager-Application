@@ -1,0 +1,958 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Apple iPhone 14",
+      "price": "799.99",
+      "quantity": "4"
+    },
+    {
+      "id": "2",
+      "title": "Samsung Galaxy S21",
+      "price": "699.99",
+      "quantity": 3
+    },
+    {
+      "id": "3",
+      "title": "Google Pixel 6",
+      "price": "599.99",
+      "quantity": 7
+    },
+    {
+      "id": "4",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "quantity": 6
+    },
+    {
+      "id": "5",
+      "title": "Dell XPS 13 Laptop",
+      "price": "999.99",
+      "quantity": 6
+    },
+    {
+      "id": "6",
+      "title": "Apple MacBook Air",
+      "price": "899.99",
+      "quantity": 4
+    },
+    {
+      "id": "7",
+      "title": "Bose QuietComfort 35 II",
+      "price": "299.99",
+      "quantity": 9
+    },
+    {
+      "id": "8",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "quantity": 14
+    },
+    {
+      "id": "9",
+      "title": "Nikon D3500 DSLR Camera",
+      "price": "499.99",
+      "quantity": 6
+    },
+    {
+      "id": "10",
+      "title": "GoPro HERO9 Black",
+      "price": "399.99",
+      "quantity": 9
+    },
+    {
+      "id": "11",
+      "title": "Microsoft Surface Pro 7",
+      "price": "749.99",
+      "quantity": 11
+    },
+    {
+      "id": "12",
+      "title": "Apple Watch Series 6",
+      "price": "429.99",
+      "quantity": 13
+    },
+    {
+      "id": "13",
+      "title": "Fitbit Charge 4",
+      "price": "149.99",
+      "quantity": 14
+    },
+    {
+      "id": "14",
+      "title": "Samsung Galaxy Tab S7",
+      "price": "649.99",
+      "quantity": 8
+    },
+    {
+      "id": "15",
+      "title": "Roku Streaming Stick+",
+      "price": "39.99",
+      "quantity": 19
+    },
+    {
+      "id": "16",
+      "title": "Kindle Paperwhite",
+      "price": "129.99",
+      "quantity": 19
+    },
+    {
+      "id": "17",
+      "title": "Sony PlayStation 5",
+      "price": "499.99",
+      "quantity": 2
+    },
+    {
+      "id": "18",
+      "title": "Xbox Series X",
+      "price": "499.99",
+      "quantity": 3
+    },
+    {
+      "id": "19",
+      "title": "Nintendo Switch",
+      "price": "299.99",
+      "quantity": 17
+    },
+    {
+      "id": "20",
+      "title": "HP Envy Printer",
+      "price": "159.99",
+      "quantity": 5
+    },
+    {
+      "id": "21",
+      "title": "Canon EOS Rebel T7",
+      "price": "449.99",
+      "quantity": 7
+    },
+    {
+      "id": "22",
+      "title": "JBL Flip 5 Bluetooth Speaker",
+      "price": "119.99",
+      "quantity": 16
+    },
+    {
+      "id": "23",
+      "title": "Dyson V11 Vacuum Cleaner",
+      "price": "599.99",
+      "quantity": 4
+    },
+    {
+      "id": "24",
+      "title": "Apple AirPods Pro",
+      "price": "249.99",
+      "quantity": 20
+    },
+    {
+      "id": "25",
+      "title": "Samsung Galaxy Buds+",
+      "price": "149.99",
+      "quantity": 18
+    },
+    {
+      "id": "26",
+      "title": "Anker PowerCore Portable Charger",
+      "price": "39.99",
+      "quantity": 21
+    },
+    {
+      "id": "27",
+      "title": "Logitech MX Master 3 Mouse",
+      "price": "99.99",
+      "quantity": 15
+    },
+    {
+      "id": "28",
+      "title": "Corsair K95 RGB Keyboard",
+      "price": "199.99",
+      "quantity": 9
+    },
+    {
+      "id": "29",
+      "title": "Philips Hue Smart Bulb",
+      "price": "49.99",
+      "quantity": 30
+    },
+    {
+      "id": "30",
+      "title": "Nest Learning Thermostat",
+      "price": "249.99",
+      "quantity": 6
+    },
+    {
+      "id": "31",
+      "title": "Ring Video Doorbell 3",
+      "price": "199.99",
+      "quantity": 11
+    },
+    {
+      "id": "32",
+      "title": "Tile Mate Item Finder",
+      "price": "24.99",
+      "quantity": 40
+    },
+    {
+      "id": "33",
+      "title": "iRobot Roomba 675",
+      "price": "279.99",
+      "quantity": 8
+    },
+    {
+      "id": "34",
+      "title": "KitchenAid Stand Mixer",
+      "price": "399.99",
+      "quantity": 5
+    },
+    {
+      "id": "35",
+      "title": "Instant Pot Duo",
+      "price": "89.99",
+      "quantity": 22
+    },
+    {
+      "id": "36",
+      "title": "Nespresso Vertuo Coffee Maker",
+      "price": "149.99",
+      "quantity": 14
+    },
+    {
+      "id": "37",
+      "title": "Samsung 55\" QLED TV",
+      "price": "999.99",
+      "quantity": 3
+    },
+    {
+      "id": "38",
+      "title": "LG OLED55CXPUA TV",
+      "price": "1299.99",
+      "quantity": 4
+    },
+    {
+      "id": "39",
+      "title": "Sony X900H 65\" TV",
+      "price": "1199.99",
+      "quantity": 6
+    },
+    {
+      "id": "40",
+      "title": "Vizio M-Series 50\" TV",
+      "price": "499.99",
+      "quantity": 7
+    },
+    {
+      "id": "41",
+      "title": "Panasonic Lumix GH5 Camera",
+      "price": "1399.99",
+      "quantity": 5
+    },
+    {
+      "id": "42",
+      "title": "DJI Mavic Air 2 Drone",
+      "price": "799.99",
+      "quantity": 9
+    },
+    {
+      "id": "43",
+      "title": "Garmin Forerunner 945",
+      "price": "599.99",
+      "quantity": 8
+    },
+    {
+      "id": "44",
+      "title": "Samsung Galaxy Watch 3",
+      "price": "399.99",
+      "quantity": 12
+    },
+    {
+      "id": "45",
+      "title": "Fujifilm Instax Mini 11",
+      "price": "69.99",
+      "quantity": 18
+    },
+    {
+      "id": "46",
+      "title": "Beats Solo Pro Headphones",
+      "price": "299.99",
+      "quantity": 10
+    },
+    {
+      "id": "47",
+      "title": "HyperX Cloud II Gaming Headset",
+      "price": "99.99",
+      "quantity": 15
+    },
+    {
+      "id": "48",
+      "title": "Razer DeathAdder V2 Mouse",
+      "price": "69.99",
+      "quantity": 17
+    },
+    {
+      "id": "49",
+      "title": "SteelSeries Apex Pro Keyboard",
+      "price": "199.99",
+      "quantity": 11
+    },
+    {
+      "id": "50",
+      "title": "Asus ROG Strix Gaming Laptop",
+      "price": "1499.99",
+      "quantity": 4
+    },
+    {
+      "id": "51",
+      "title": "Acer Predator Helios 300",
+      "price": "1299.99",
+      "quantity": 5
+    },
+    {
+      "id": "52",
+      "title": "MSI GS66 Stealth Laptop",
+      "price": "1799.99",
+      "quantity": 3
+    },
+    {
+      "id": "53",
+      "title": "Alienware m15 R3 Laptop",
+      "price": "1999.99",
+      "quantity": 2
+    },
+    {
+      "id": "54",
+      "title": "Lenovo Legion 5 Laptop",
+      "price": "1099.99",
+      "quantity": 7
+    },
+    {
+      "id": "55",
+      "title": "HP Omen 15 Gaming Laptop",
+      "price": "1249.99",
+      "quantity": 6
+    },
+    {
+      "id": "56",
+      "title": "Dell G5 15 Gaming Laptop",
+      "price": "1149.99",
+      "quantity": 8
+    },
+    {
+      "id": "57",
+      "title": "Razer Blade 15",
+      "price": "2399.99",
+      "quantity": 3
+    },
+    {
+      "id": "58",
+      "title": "Gigabyte Aero 15",
+      "price": "2199.99",
+      "quantity": 4
+    },
+    {
+      "id": "59",
+      "title": "Corsair One i160",
+      "price": "2999.99",
+      "quantity": 2
+    },
+    {
+      "id": "60",
+      "title": "NZXT H510 Elite PC Case",
+      "price": "149.99",
+      "quantity": 15
+    },
+    {
+      "id": "61",
+      "title": "Cooler Master MasterBox Q300L",
+      "price": "59.99",
+      "quantity": 20
+    },
+    {
+      "id": "62",
+      "title": "Fractal Design Meshify C",
+      "price": "99.99",
+      "quantity": 10
+    },
+    {
+      "id": "63",
+      "title": "Phanteks Eclipse P300A",
+      "price": "69.99",
+      "quantity": 25
+    },
+    {
+      "id": "64",
+      "title": "Intel Core i9-10900K Processor",
+      "price": "499.99",
+      "quantity": 7
+    },
+    {
+      "id": "65",
+      "title": "AMD Ryzen 9 5900X Processor",
+      "price": "549.99",
+      "quantity": 6
+    },
+    {
+      "id": "66",
+      "title": "NVIDIA GeForce RTX 3080",
+      "price": "699.99",
+      "quantity": 4
+    },
+    {
+      "id": "67",
+      "title": "AMD Radeon RX 6800 XT",
+      "price": "649.99",
+      "quantity": 5
+    },
+    {
+      "id": "68",
+      "title": "Corsair Vengeance LPX 16GB RAM",
+      "price": "89.99",
+      "quantity": 22
+    },
+    {
+      "id": "69",
+      "title": "G.Skill Trident Z RGB 32GB RAM",
+      "price": "159.99",
+      "quantity": 12
+    },
+    {
+      "id": "70",
+      "title": "Samsung 970 EVO Plus 1TB SSD",
+      "price": "149.99",
+      "quantity": 14
+    },
+    {
+      "id": "71",
+      "title": "Western Digital Black 2TB HDD",
+      "price": "79.99",
+      "quantity": 18
+    },
+    {
+      "id": "72",
+      "title": "Seagate Barracuda 4TB HDD",
+      "price": "99.99",
+      "quantity": 11
+    },
+    {
+      "id": "73",
+      "title": "Crucial MX500 500GB SSD",
+      "price": "59.99",
+      "quantity": 20
+    },
+    {
+      "id": "74",
+      "title": "Kingston A2000 1TB SSD",
+      "price": "119.99",
+      "quantity": 17
+    },
+    {
+      "id": "75",
+      "title": "SanDisk Ultra 128GB MicroSD",
+      "price": "24.99",
+      "quantity": 30
+    },
+    {
+      "id": "76",
+      "title": "PNY 64GB USB Flash Drive",
+      "price": "9.99",
+      "quantity": 50
+    },
+    {
+      "id": "77",
+      "title": "LG UltraGear 27GL83A Monitor",
+      "price": "379.99",
+      "quantity": 9
+    },
+    {
+      "id": "78",
+      "title": "ASUS TUF Gaming VG27AQ Monitor",
+      "price": "429.99",
+      "quantity": 8
+    },
+    {
+      "id": "79",
+      "title": "AOC C24G1 Curved Gaming Monitor",
+      "price": "229.99",
+      "quantity": 12
+    },
+    {
+      "id": "80",
+      "title": "Dell UltraSharp U2720Q Monitor",
+      "price": "599.99",
+      "quantity": 5
+    },
+    {
+      "id": "81",
+      "title": "BenQ PD3200U 32\" Monitor",
+      "price": "799.99",
+      "quantity": 4
+    },
+    {
+      "id": "82",
+      "title": "ViewSonic XG270QG Monitor",
+      "price": "629.99",
+      "quantity": 7
+    },
+    {
+      "id": "83",
+      "title": "Samsung Odyssey G7 Monitor",
+      "price": "699.99",
+      "quantity": 6
+    },
+    {
+      "id": "84",
+      "title": "LG 34WN80C-B UltraWide Monitor",
+      "price": "499.99",
+      "quantity": 10
+    },
+    {
+      "id": "85",
+      "title": "MSI Optix MAG272CQR Monitor",
+      "price": "399.99",
+      "quantity": 11
+    },
+    {
+      "id": "86",
+      "title": "Gigabyte Aorus FI27Q-P Monitor",
+      "price": "599.99",
+      "quantity": 8
+    },
+    {
+      "id": "87",
+      "title": "Corsair HS70 Wireless Headset",
+      "price": "99.99",
+      "quantity": 13
+    },
+    {
+      "id": "88",
+      "title": "HyperX QuadCast Microphone",
+      "price": "139.99",
+      "quantity": 9
+    },
+    {
+      "id": "89",
+      "title": "Blue Yeti USB Microphone",
+      "price": "129.99",
+      "quantity": 12
+    },
+    {
+      "id": "90",
+      "title": "Elgato Stream Deck",
+      "price": "149.99",
+      "quantity": 10
+    },
+    {
+      "id": "91",
+      "title": "Logitech C920 HD Webcam",
+      "price": "69.99",
+      "quantity": 20
+    },
+    {
+      "id": "92",
+      "title": "Rode NT-USB Microphone",
+      "price": "169.99",
+      "quantity": 7
+    },
+    {
+      "id": "93",
+      "title": "Audio-Technica AT2020 Microphone",
+      "price": "99.99",
+      "quantity": 10
+    },
+    {
+      "id": "94",
+      "title": "Shure SM7B Microphone",
+      "price": "399.99",
+      "quantity": 5
+    },
+    {
+      "id": "95",
+      "title": "Sony Alpha a6400 Camera",
+      "price": "899.99",
+      "quantity": 6
+    },
+    {
+      "id": "96",
+      "title": "GoPro HERO10 Black",
+      "price": "499.99",
+      "quantity": 7
+    },
+    {
+      "id": "97",
+      "title": "Bose SoundLink Revolve+",
+      "price": "299.99",
+      "quantity": 8
+    },
+    {
+      "id": "98",
+      "title": "Canon PowerShot G7 X Mark III",
+      "price": "749.99",
+      "quantity": 5
+    },
+    {
+      "id": "99",
+      "title": "DJI Osmo Mobile 4",
+      "price": "149.99",
+      "quantity": 12
+    },
+    {
+      "id": "100",
+      "title": "Razer Kraken X Gaming Headset",
+      "price": "49.99",
+      "quantity": 18
+    },
+    {
+      "id": "81f9",
+      "title": "Laptop",
+      "quantity": 10,
+      "price": "999"
+    }
+  ],
+  "managers": [
+    {
+      "id": "1",
+      "username": "jdoe11",
+      "name": "John",
+      "surname": "Doe",
+      "dateRegistered": "2020-01-15T00:00:00.000Z",
+      "totalSales": "16149.82"
+    },
+    {
+      "id": "2",
+      "username": "asmith2",
+      "name": "Alice",
+      "surname": "Smith",
+      "dateRegistered": "2019-03-10T00:00:00.000Z",
+      "totalSales": "22129.970000000005"
+    },
+    {
+      "id": "3",
+      "username": "bwilliams3",
+      "name": "Bob",
+      "surname": "Williams",
+      "dateRegistered": "2018-07-21T00:00:00.000Z",
+      "totalSales": "18500"
+    },
+    {
+      "id": "4",
+      "username": "cjones4",
+      "name": "Catherine",
+      "surname": "Jones",
+      "dateRegistered": "2021-11-05T00:00:00.000Z",
+      "totalSales": "12000"
+    },
+    {
+      "id": "5",
+      "username": "dmiller5",
+      "name": "David",
+      "surname": "Miller",
+      "dateRegistered": "2022-04-12T00:00:00.000Z",
+      "totalSales": "9500"
+    },
+    {
+      "id": "6",
+      "username": "emartinez6",
+      "name": "Emily",
+      "surname": "Martinez",
+      "dateRegistered": "2017-08-30T00:00:00.000Z",
+      "totalSales": "30000"
+    },
+    {
+      "id": "7",
+      "username": "fgarcia7",
+      "name": "Frank",
+      "surname": "Garcia",
+      "dateRegistered": "2019-12-25T00:00:00.000Z",
+      "totalSales": "17000"
+    },
+    {
+      "id": "8",
+      "username": "hlee8",
+      "name": "Helen",
+      "surname": "Lee",
+      "dateRegistered": "2020-09-14T00:00:00.000Z",
+      "totalSales": "20000"
+    },
+    {
+      "id": "9",
+      "username": "ikevans9",
+      "name": "Isaac",
+      "surname": "Evans",
+      "dateRegistered": "2016-02-18T00:00:00.000Z",
+      "totalSales": "35000"
+    },
+    {
+      "id": "10",
+      "username": "jwilliams10",
+      "name": "Jessica",
+      "surname": "Williams",
+      "dateRegistered": "2021-06-27T00:00:00.000Z",
+      "totalSales": "11000"
+    },
+    {
+      "id": "197a",
+      "username": "mamuka",
+      "name": "mamuka",
+      "surname": "mamuka",
+      "dateRegistered": "2024-06-26T16:34:06.795Z",
+      "totalSales": "639.94"
+    },
+    {
+      "id": "9ce1",
+      "username": "mamuka1",
+      "name": "mamuka1",
+      "surname": "mamuka1",
+      "dateRegistered": "2024-06-26T16:36:49.479Z",
+      "totalSales": "999"
+    }
+  ],
+  "productsSold": [
+    {
+      "id": "fe98",
+      "title": "Apple iPhone 14",
+      "price": "799.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T12:00:02.649Z",
+      "quantity": 2
+    },
+    {
+      "id": "45ce",
+      "title": "Apple iPhone 14",
+      "price": "799.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T14:34:53.107Z",
+      "quantity": 1
+    },
+    {
+      "id": "b0d1",
+      "title": "Apple iPhone 14",
+      "price": "799.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T14:47:32.837Z",
+      "quantity": 1
+    },
+    {
+      "id": "c576",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T14:48:20.536Z",
+      "quantity": 1
+    },
+    {
+      "id": "9b38",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:23:58.826Z",
+      "quantity": 1
+    },
+    {
+      "id": "da9f",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:26:22.814Z",
+      "quantity": 1
+    },
+    {
+      "id": "8849",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:28:02.756Z",
+      "quantity": 1
+    },
+    {
+      "id": "3845",
+      "title": "Google Pixel 6",
+      "price": "599.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:30:41.735Z",
+      "quantity": 1
+    },
+    {
+      "id": "0d77",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:35:07.409Z",
+      "quantity": 1
+    },
+    {
+      "id": "329b",
+      "title": "Dell XPS 13 Laptop",
+      "price": "999.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:36:27.072Z",
+      "quantity": 1
+    },
+    {
+      "id": "21b7",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:37:09.398Z",
+      "quantity": 1
+    },
+    {
+      "id": "0948",
+      "title": "Sony WH-1000XM4 Headphones",
+      "price": "349.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:38:25.616Z",
+      "quantity": 1
+    },
+    {
+      "id": "a43d",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T15:48:08.356Z",
+      "quantity": 2
+    },
+    {
+      "id": "a623",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:40:01.076Z",
+      "quantity": 1
+    },
+    {
+      "id": "4c52",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:40:27.146Z",
+      "quantity": 1
+    },
+    {
+      "id": "5988",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:41:24.212Z",
+      "quantity": 1
+    },
+    {
+      "id": "c616",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:46:55.046Z",
+      "quantity": 1
+    },
+    {
+      "id": "3b06",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:47:40.949Z",
+      "quantity": 1
+    },
+    {
+      "id": "249e",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:48:50.435Z",
+      "quantity": 1
+    },
+    {
+      "id": "c7cf",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:50:14.299Z",
+      "quantity": 1
+    },
+    {
+      "id": "90cc",
+      "title": "Bose QuietComfort 35 II",
+      "price": "299.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:50:49.459Z",
+      "quantity": 1
+    },
+    {
+      "id": "9e57",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T19:59:53.508Z",
+      "quantity": 1
+    },
+    {
+      "id": "5a27",
+      "title": "Amazon Echo Dot",
+      "price": "49.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-24T20:11:55.369Z",
+      "quantity": 1
+    },
+    {
+      "id": "26b9",
+      "title": "Roku Streaming Stick+",
+      "price": "39.99",
+      "username": "jdoe11",
+      "salesDate": "2024-06-25T07:27:03.233Z",
+      "quantity": 1
+    },
+    {
+      "id": "96e3",
+      "title": "Roku Streaming Stick+",
+      "price": "39.99",
+      "username": "asmith2",
+      "salesDate": "2024-06-25T07:50:05.583Z",
+      "quantity": 1
+    },
+    {
+      "id": "cf86",
+      "title": "Roku Streaming Stick+",
+      "price": "39.99",
+      "username": "asmith2",
+      "salesDate": "2024-06-25T08:35:19.298Z",
+      "quantity": 1
+    },
+    {
+      "id": "c99b",
+      "title": "Razer Kraken X Gaming Headset",
+      "price": "49.99",
+      "username": "asmith2",
+      "salesDate": "2024-06-26T16:38:12.172Z",
+      "quantity": 1
+    },
+    {
+      "id": "c845",
+      "title": "Laptop",
+      "price": "999",
+      "username": "mamuka1",
+      "salesDate": "2024-06-26T17:02:25.177Z",
+      "quantity": 1
+    },
+    {
+      "id": "1808",
+      "title": "Razer Kraken X Gaming Headset",
+      "price": "49.99",
+      "username": "mamuka",
+      "salesDate": "2024-06-26T17:09:13.409Z",
+      "quantity": 1
+    },
+    {
+      "id": "68e9",
+      "title": "Audio-Technica AT2020 Microphone",
+      "price": "99.99",
+      "username": "mamuka",
+      "salesDate": "2024-06-26T17:09:18.170Z",
+      "quantity": 2
+    },
+    {
+      "id": "694c",
+      "title": "Blue Yeti USB Microphone",
+      "price": "129.99",
+      "username": "mamuka",
+      "salesDate": "2024-06-26T17:09:22.543Z",
+      "quantity": 3
+    }
+  ]
+}

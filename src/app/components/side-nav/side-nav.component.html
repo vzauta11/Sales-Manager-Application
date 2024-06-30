@@ -1,0 +1,28 @@
+<nav class="box-border p-4 h-full w-fit min-w-56 flex flex-col justify-between">
+  <div class="flex flex-col items-start gap-2">
+    <button
+      mat-raised-button
+      class="w-full"
+      routerLink="./products"
+      routerLinkActive="mat-accent"
+    >
+      {{ "Products" | translate }}
+    </button>
+    <button
+      mat-raised-button
+      class="w-full"
+      routerLink="./sales-managers"
+      routerLinkActive="mat-accent"
+    >
+      {{ "Sales Managers" | translate }}
+    </button>
+  </div>
+  <button
+    mat-raised-button
+    color="primary"
+    class="w-full text-nowrap"
+    (click)="logout()"
+  >
+    {{ "Log out" | translate }}
+  </button>
+</nav>

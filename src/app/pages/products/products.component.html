@@ -1,0 +1,87 @@
+<div class="p-4">
+  <div class="mb-4 w-full flex justify-end" *ngIf="!managerData">
+    <button color="primary" mat-raised-button (click)="openAddOrEditDialog()">
+      {{ "Add Product" | translate }}
+    </button>
+  </div>
+  <mat-form-field appearance="outline" class="w-full">
+    <mat-label>{{ "Filter" | translate }}</mat-label>
+    <input matInput (keyup)="applyFilter($event)" #input />
+  </mat-form-field>
+  <table mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef>{{ "Title" | translate }}</th>
+      <td mat-cell *matCellDef="let element">{{ element.title }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef>{{ "Price" | translate }}</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.price | number : "0.1-2" }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="quantity">
+      <th mat-header-cell *matHeaderCellDef>{{ "Quantity" | translate }}</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.quantity | number : "0.0" }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="salesDate">
+      <th mat-header-cell *matHeaderCellDef>{{ "Sales Date" | translate }}</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.salesDate | date : "dd/MM/yyyy HH:mm" }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef>{{ "Action" | translate }}</th>
+      <td mat-cell *matCellDef="let element">
+        <div class="flex gap-2" (click)="$event.stopPropagation()">
+          <a (click)="deleteProduct(element)">
+            <mat-icon
+              class="text-red-400 opacity-70"
+              fontIcon="delete"
+            ></mat-icon>
+          </a>
+          <a (click)="sellProduct(element)">
+            <mat-icon
+              class="text-green-400 opacity-70"
+              fontIcon="sell"
+            ></mat-icon>
+          </a>
+        </div>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr
+      [ngClass]="managerData ? '' : 'cursor-pointer'"
+      (click)="openAddOrEditDialog(row)"
+      mat-row
+      *matRowDef="let row; columns: displayedColumns"
+    ></tr>
+  </table>
+
+  <mat-paginator
+    [pageSizeOptions]="[10, 20]"
+    showFirstLastButtons
+    aria-label="Select page of periodic elements"
+  >
+  </mat-paginator>
+</div>
+
+<ng-template #deleteDialog>
+  <div class="p-6">
+    <p class="text-wrap text-lg">
+      {{ "Are you sure, you want to delete this product?" | translate }}
+    </p>
+    <mat-dialog-actions align="end">
+      <button mat-button mat-dialog-close>{{ "Cancel" | translate }}</button>
+      <button mat-button color="primary" [mat-dialog-close]="true">
+        {{ "Confirm" | translate }}
+      </button>
+    </mat-dialog-actions>
+  </div>
+</ng-template>

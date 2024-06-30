@@ -1,0 +1,74 @@
+<form [formGroup]="form" class="p-8">
+  <div class="flex justify-between">
+    <p class="text-xl">{{ "Filter" | translate }}</p>
+    <button type="button" color="primary" mat-button (click)="clear()">
+      {{ "Clear" | translate }}
+    </button>
+  </div>
+  <div class="flex flex-col gap-2">
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "Username" | translate }}</mat-label>
+      <input matInput formControlName="username" #input />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "Name" | translate }}</mat-label>
+      <input matInput formControlName="name" #input />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "Surname" | translate }}</mat-label>
+      <input matInput formControlName="surname" #input />
+    </mat-form-field>
+
+    <p class="text-lg">{{ "Date Registered" | translate }}</p>
+    <mat-form-field class="w-full" appearance="outline">
+      <mat-label>{{ "From - To" | translate }}</mat-label>
+      <mat-date-range-input
+        [formGroup]="form.controls.dateRegisteredRange"
+        [rangePicker]="picker"
+        [max]="maxDate"
+      >
+        <input matStartDate formControlName="start" />
+        <input matEndDate formControlName="end" />
+      </mat-date-range-input>
+      <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle
+        matIconSuffix
+        [for]="picker"
+      ></mat-datepicker-toggle>
+      <mat-date-range-picker #picker></mat-date-range-picker>
+    </mat-form-field>
+
+    <p class="text-lg">{{ "Total Sales" | translate }}</p>
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "From" | translate }}</mat-label>
+      <input matInput formControlName="totalSalesFrom" #input />
+      <mat-error *ngIf="form.controls.totalSalesFrom.hasError('min')">
+        {{ "min" | translate }} 0
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "To" | translate }}</mat-label>
+      <input matInput formControlName="totalSalesTo" #input />
+      <mat-error *ngIf="form.controls.totalSalesTo.hasError('min')">
+        {{ "min" | translate }} 0
+      </mat-error>
+    </mat-form-field>
+  </div>
+
+  <mat-dialog-actions align="end">
+    <button type="button" mat-button mat-dialog-close>
+      {{ "Cancel" | translate }}
+    </button>
+    <button
+      mat-button
+      color="primary"
+      [mat-dialog-close]="form"
+      cdkFocusInitial
+      [disabled]="form.invalid"
+    >
+      {{ "Filter" | translate }}
+    </button>
+  </mat-dialog-actions>
+</form>

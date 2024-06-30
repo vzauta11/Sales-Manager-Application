@@ -1,0 +1,35 @@
+<div class="p-8">
+  <mat-form-field appearance="outline" class="w-full">
+    <mat-label>{{ "Quantity" | translate }}</mat-label>
+    <input
+      matInput
+      type="number"
+      class="no-arrows"
+      [formControl]="quantity"
+      [min]="minQuantity"
+      [max]="maxQuantity"
+    />
+  </mat-form-field>
+  <mat-error *ngIf="quantity.touched && quantity.hasError('required')">
+    {{ "required" | translate }}
+  </mat-error>
+  <mat-error *ngIf="quantity.hasError('min')">
+    {{ "min" | translate }} {{ minQuantity }}
+  </mat-error>
+  <mat-error *ngIf="quantity.hasError('max')">
+    {{ "max" | translate }} {{ maxQuantity }}
+  </mat-error>
+  <mat-dialog-actions align="end">
+    <button mat-button [mat-dialog-close]="undefined">
+      {{ "Cancel" | translate }}
+    </button>
+    <button
+      mat-button
+      color="primary"
+      [mat-dialog-close]="quantity.value"
+      [disabled]="quantity.invalid"
+    >
+      {{ "Confirm" | translate }}
+    </button>
+  </mat-dialog-actions>
+</div>

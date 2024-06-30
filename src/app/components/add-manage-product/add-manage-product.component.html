@@ -1,0 +1,45 @@
+<div class="flex flex-col gap-2">
+  <form [formGroup]="form" class="p-8">
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "Title" | translate }}</mat-label>
+      <input matInput formControlName="title" #input />
+      <mat-error *ngIf="form.controls.title.hasError('required')">{{
+        "required" | translate
+      }}</mat-error>
+      <mat-error *ngIf="form.controls.title.hasError('pattern')"
+        >{{
+          "Title must contain only Latin or Georgian characters and numbers"
+            | translate
+        }}
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "Price" | translate }}</mat-label>
+      <input matInput formControlName="price" #input />
+      <mat-error *ngIf="form.controls.price.hasError('required')">
+        {{ "required" | translate }}
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="w-full">
+      <mat-label>{{ "Quantity" | translate }}</mat-label>
+      <input matInput formControlName="quantity" #input />
+      <mat-error *ngIf="form.controls.quantity.hasError('required')">
+        {{ "required" | translate }}
+      </mat-error>
+    </mat-form-field>
+
+    <mat-dialog-actions align="end">
+      <button mat-button mat-dialog-close>{{ "Cancel" | translate }}</button>
+      <button
+        mat-button
+        color="primary"
+        [mat-dialog-close]="form.value"
+        [disabled]="form.invalid"
+      >
+        {{ "Confirm" | translate }}
+      </button>
+    </mat-dialog-actions>
+  </form>
+</div>

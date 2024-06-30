@@ -1,0 +1,8 @@
+:host ::ng-deep .mat-drawer-inner-container {
+  overflow: hidden;
+}
+
+mat-drawer-container {
+  height: calc(100% - 3rem);
+  width: 100%;
+}
