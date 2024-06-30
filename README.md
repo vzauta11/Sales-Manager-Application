@@ -9,6 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## JSON Server
 
 This project also runs a JSON server to simulate a backend. To start the JSON server, run:
+json-server --watch db.json 
 
 'npm run server'
 
