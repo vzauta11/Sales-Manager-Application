@@ -6,10 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 მოცემული დავალება საინტერესო გამოწვევა აღმოჩნდა და მომცა საშუალება, გამომეყენებინა NGRX state management სისტემა, რომელიც მრავალფეროვან და დახვეწილ, სუფთა კოდთან ერთად გვთავაზობს უმაღლესს პერფორმანსს.
 
-პროექტის გაშვება
+
  პროექტის გასაშვებად საჭიროა ng serve ბრძანების გაშვება, 
  ბექ ენდად JSON server გამოვიყენე, რომლის გაშვებასაც json-server --watch db.json ამ ქომანდით შეძლებთ
 შედეგად შეგვეძლება აპლიკაციის გამოყენება.
+
+სატესტო რეჟიმში:
+მომხმარებლის სახელი: test
+პაროლი: test123
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
