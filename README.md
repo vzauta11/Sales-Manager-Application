@@ -11,7 +11,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  ბექ ენდად JSON server გამოვიყენე, რომლის გაშვებასაც json-server --watch db.json ამ ქომანდით შეძლებთ
 შედეგად შეგვეძლება აპლიკაციის გამოყენება.
 
-სატესტო რეჟიმში:
+პირობითი მომხმარებელი
+
+
 მომხმარებლის სახელი: test
 პაროლი: test123
 
